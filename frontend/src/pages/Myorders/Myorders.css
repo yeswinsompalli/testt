@@ -1,7 +1,7 @@
 .my-orders{
     margin: 50px 0px;
 }
-.my orders .container{
+.my-orders .container{
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -27,16 +27,15 @@
     font-weight: 500;
     color: #454545;
 }
-.my-orders-order{
+.my-orders button{
     border: none;
     padding: 12px 0px;
     border-radius: 4px;
-    background-color: #ffe1e1;
+    background-color: #FFE1E1;
     cursor: pointer;
     color: #454545;
 }
-
-@media (max-width:900px){
+@media (max-width:900px) {
     .my-orders-order{
         grid-template-columns: 1fr 2fr 1fr;
         row-gap: 5px;
@@ -45,4 +44,5 @@
     .my-orders-order button{
         font-size: 10px;
     }
+    
 }
